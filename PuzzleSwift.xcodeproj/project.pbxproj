@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D8E290E1CE22B4E0019A19E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8E290D1CE22B4E0019A19E /* AppDelegate.swift */; };
+		7D8E29101CE22B4E0019A19E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8E290F1CE22B4E0019A19E /* ViewController.swift */; };
+		7D8E29121CE22B4E0019A19E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8E29111CE22B4E0019A19E /* Assets.xcassets */; };
+		7D8E29151CE22B4E0019A19E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8E29131CE22B4E0019A19E /* Main.storyboard */; };
+		7D8E29201CE22B4E0019A19E /* PuzzleSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8E291F1CE22B4E0019A19E /* PuzzleSwiftTests.swift */; };
+		7D8E292B1CE22B4E0019A19E /* PuzzleSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8E292A1CE22B4E0019A19E /* PuzzleSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D8E291C1CE22B4E0019A19E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D8E29021CE22B4E0019A19E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D8E29091CE22B4E0019A19E;
+			remoteInfo = PuzzleSwift;
+		};
+		7D8E29271CE22B4E0019A19E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D8E29021CE22B4E0019A19E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D8E29091CE22B4E0019A19E;
+			remoteInfo = PuzzleSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D8E290A1CE22B4E0019A19E /* PuzzleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuzzleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8E290D1CE22B4E0019A19E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D8E290F1CE22B4E0019A19E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D8E29111CE22B4E0019A19E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D8E29141CE22B4E0019A19E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D8E29161CE22B4E0019A19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D8E291B1CE22B4E0019A19E /* PuzzleSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuzzleSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8E291F1CE22B4E0019A19E /* PuzzleSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleSwiftTests.swift; sourceTree = "<group>"; };
+		7D8E29211CE22B4E0019A19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D8E29261CE22B4E0019A19E /* PuzzleSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuzzleSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8E292A1CE22B4E0019A19E /* PuzzleSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleSwiftUITests.swift; sourceTree = "<group>"; };
+		7D8E292C1CE22B4E0019A19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D8E29071CE22B4E0019A19E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8E29181CE22B4E0019A19E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8E29231CE22B4E0019A19E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D8E29011CE22B4E0019A19E = {
+			isa = PBXGroup;
+			children = (
+				7D8E290C1CE22B4E0019A19E /* PuzzleSwift */,
+				7D8E291E1CE22B4E0019A19E /* PuzzleSwiftTests */,
+				7D8E29291CE22B4E0019A19E /* PuzzleSwiftUITests */,
+				7D8E290B1CE22B4E0019A19E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D8E290B1CE22B4E0019A19E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D8E290A1CE22B4E0019A19E /* PuzzleSwift.app */,
+				7D8E291B1CE22B4E0019A19E /* PuzzleSwiftTests.xctest */,
+				7D8E29261CE22B4E0019A19E /* PuzzleSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D8E290C1CE22B4E0019A19E /* PuzzleSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7D8E290D1CE22B4E0019A19E /* AppDelegate.swift */,
+				7D8E290F1CE22B4E0019A19E /* ViewController.swift */,
+				7D8E29111CE22B4E0019A19E /* Assets.xcassets */,
+				7D8E29131CE22B4E0019A19E /* Main.storyboard */,
+				7D8E29161CE22B4E0019A19E /* Info.plist */,
+			);
+			path = PuzzleSwift;
+			sourceTree = "<group>";
+		};
+		7D8E291E1CE22B4E0019A19E /* PuzzleSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D8E291F1CE22B4E0019A19E /* PuzzleSwiftTests.swift */,
+				7D8E29211CE22B4E0019A19E /* Info.plist */,
+			);
+			path = PuzzleSwiftTests;
+			sourceTree = "<group>";
+		};
+		7D8E29291CE22B4E0019A19E /* PuzzleSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D8E292A1CE22B4E0019A19E /* PuzzleSwiftUITests.swift */,
+				7D8E292C1CE22B4E0019A19E /* Info.plist */,
+			);
+			path = PuzzleSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D8E29091CE22B4E0019A19E /* PuzzleSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D8E292F1CE22B4E0019A19E /* Build configuration list for PBXNativeTarget "PuzzleSwift" */;
+			buildPhases = (
+				7D8E29061CE22B4E0019A19E /* Sources */,
+				7D8E29071CE22B4E0019A19E /* Frameworks */,
+				7D8E29081CE22B4E0019A19E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PuzzleSwift;
+			productName = PuzzleSwift;
+			productReference = 7D8E290A1CE22B4E0019A19E /* PuzzleSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D8E291A1CE22B4E0019A19E /* PuzzleSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D8E29321CE22B4E0019A19E /* Build configuration list for PBXNativeTarget "PuzzleSwiftTests" */;
+			buildPhases = (
+				7D8E29171CE22B4E0019A19E /* Sources */,
+				7D8E29181CE22B4E0019A19E /* Frameworks */,
+				7D8E29191CE22B4E0019A19E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D8E291D1CE22B4E0019A19E /* PBXTargetDependency */,
+			);
+			name = PuzzleSwiftTests;
+			productName = PuzzleSwiftTests;
+			productReference = 7D8E291B1CE22B4E0019A19E /* PuzzleSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D8E29251CE22B4E0019A19E /* PuzzleSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D8E29351CE22B4E0019A19E /* Build configuration list for PBXNativeTarget "PuzzleSwiftUITests" */;
+			buildPhases = (
+				7D8E29221CE22B4E0019A19E /* Sources */,
+				7D8E29231CE22B4E0019A19E /* Frameworks */,
+				7D8E29241CE22B4E0019A19E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D8E29281CE22B4E0019A19E /* PBXTargetDependency */,
+			);
+			name = PuzzleSwiftUITests;
+			productName = PuzzleSwiftUITests;
+			productReference = 7D8E29261CE22B4E0019A19E /* PuzzleSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D8E29021CE22B4E0019A19E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Friedrich HAEUPL";
+				TargetAttributes = {
+					7D8E29091CE22B4E0019A19E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					7D8E291A1CE22B4E0019A19E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7D8E29091CE22B4E0019A19E;
+					};
+					7D8E29251CE22B4E0019A19E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7D8E29091CE22B4E0019A19E;
+					};
+				};
+			};
+			buildConfigurationList = 7D8E29051CE22B4E0019A19E /* Build configuration list for PBXProject "PuzzleSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D8E29011CE22B4E0019A19E;
+			productRefGroup = 7D8E290B1CE22B4E0019A19E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D8E29091CE22B4E0019A19E /* PuzzleSwift */,
+				7D8E291A1CE22B4E0019A19E /* PuzzleSwiftTests */,
+				7D8E29251CE22B4E0019A19E /* PuzzleSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D8E29081CE22B4E0019A19E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8E29121CE22B4E0019A19E /* Assets.xcassets in Resources */,
+				7D8E29151CE22B4E0019A19E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8E29191CE22B4E0019A19E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8E29241CE22B4E0019A19E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D8E29061CE22B4E0019A19E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8E29101CE22B4E0019A19E /* ViewController.swift in Sources */,
+				7D8E290E1CE22B4E0019A19E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8E29171CE22B4E0019A19E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8E29201CE22B4E0019A19E /* PuzzleSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8E29221CE22B4E0019A19E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8E292B1CE22B4E0019A19E /* PuzzleSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D8E291D1CE22B4E0019A19E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D8E29091CE22B4E0019A19E /* PuzzleSwift */;
+			targetProxy = 7D8E291C1CE22B4E0019A19E /* PBXContainerItemProxy */;
+		};
+		7D8E29281CE22B4E0019A19E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D8E29091CE22B4E0019A19E /* PuzzleSwift */;
+			targetProxy = 7D8E29271CE22B4E0019A19E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D8E29131CE22B4E0019A19E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D8E29141CE22B4E0019A19E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D8E292D1CE22B4E0019A19E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D8E292E1CE22B4E0019A19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7D8E29301CE22B4E0019A19E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PuzzleSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.best-of-fritz.test.PuzzleSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D8E29311CE22B4E0019A19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PuzzleSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.best-of-fritz.test.PuzzleSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7D8E29331CE22B4E0019A19E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PuzzleSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.best-of-fritz.test.PuzzleSwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuzzleSwift.app/Contents/MacOS/PuzzleSwift";
+			};
+			name = Debug;
+		};
+		7D8E29341CE22B4E0019A19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PuzzleSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.best-of-fritz.test.PuzzleSwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuzzleSwift.app/Contents/MacOS/PuzzleSwift";
+			};
+			name = Release;
+		};
+		7D8E29361CE22B4E0019A19E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PuzzleSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.best-of-fritz.test.PuzzleSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PuzzleSwift;
+			};
+			name = Debug;
+		};
+		7D8E29371CE22B4E0019A19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PuzzleSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.best-of-fritz.test.PuzzleSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PuzzleSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D8E29051CE22B4E0019A19E /* Build configuration list for PBXProject "PuzzleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8E292D1CE22B4E0019A19E /* Debug */,
+				7D8E292E1CE22B4E0019A19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D8E292F1CE22B4E0019A19E /* Build configuration list for PBXNativeTarget "PuzzleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8E29301CE22B4E0019A19E /* Debug */,
+				7D8E29311CE22B4E0019A19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D8E29321CE22B4E0019A19E /* Build configuration list for PBXNativeTarget "PuzzleSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8E29331CE22B4E0019A19E /* Debug */,
+				7D8E29341CE22B4E0019A19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D8E29351CE22B4E0019A19E /* Build configuration list for PBXNativeTarget "PuzzleSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8E29361CE22B4E0019A19E /* Debug */,
+				7D8E29371CE22B4E0019A19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D8E29021CE22B4E0019A19E /* Project object */;
+}
