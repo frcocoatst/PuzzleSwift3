@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D8922841D36729C00C8135F /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8922831D36729C00C8135F /* Element.swift */; };
 		7D8E290E1CE22B4E0019A19E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8E290D1CE22B4E0019A19E /* AppDelegate.swift */; };
 		7D8E29101CE22B4E0019A19E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8E290F1CE22B4E0019A19E /* ViewController.swift */; };
 		7D8E29121CE22B4E0019A19E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8E29111CE22B4E0019A19E /* Assets.xcassets */; };
 		7D8E29151CE22B4E0019A19E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8E29131CE22B4E0019A19E /* Main.storyboard */; };
 		7D8E29201CE22B4E0019A19E /* PuzzleSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8E291F1CE22B4E0019A19E /* PuzzleSwiftTests.swift */; };
 		7D8E292B1CE22B4E0019A19E /* PuzzleSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8E292A1CE22B4E0019A19E /* PuzzleSwiftUITests.swift */; };
+		7D8E293B1CE22BFE0019A19E /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8E293A1CE22BFE0019A19E /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D8922831D36729C00C8135F /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
 		7D8E290A1CE22B4E0019A19E /* PuzzleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuzzleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8E290D1CE22B4E0019A19E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D8E290F1CE22B4E0019A19E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 		7D8E29261CE22B4E0019A19E /* PuzzleSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuzzleSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8E292A1CE22B4E0019A19E /* PuzzleSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleSwiftUITests.swift; sourceTree = "<group>"; };
 		7D8E292C1CE22B4E0019A19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D8E293A1CE22BFE0019A19E /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				7D8E290F1CE22B4E0019A19E /* ViewController.swift */,
 				7D8E29111CE22B4E0019A19E /* Assets.xcassets */,
 				7D8E29131CE22B4E0019A19E /* Main.storyboard */,
+				7D8E293A1CE22BFE0019A19E /* MyView.swift */,
+				7D8922831D36729C00C8135F /* Element.swift */,
 				7D8E29161CE22B4E0019A19E /* Info.plist */,
 			);
 			path = PuzzleSwift;
@@ -252,7 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D8E293B1CE22BFE0019A19E /* MyView.swift in Sources */,
 				7D8E29101CE22B4E0019A19E /* ViewController.swift in Sources */,
+				7D8922841D36729C00C8135F /* Element.swift in Sources */,
 				7D8E290E1CE22B4E0019A19E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +483,7 @@
 				7D8E29311CE22B4E0019A19E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D8E29321CE22B4E0019A19E /* Build configuration list for PBXNativeTarget "PuzzleSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +492,7 @@
 				7D8E29341CE22B4E0019A19E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D8E29351CE22B4E0019A19E /* Build configuration list for PBXNativeTarget "PuzzleSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +501,7 @@
 				7D8E29371CE22B4E0019A19E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
