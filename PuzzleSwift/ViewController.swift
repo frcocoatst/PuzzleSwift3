@@ -22,6 +22,12 @@ class ViewController: NSViewController {
         }
     }
 
+    @IBOutlet weak var viewOutlet: MyView!
 
+    @IBAction func doShuffle(sender: AnyObject) {
+        NSLog("doShuffle called")
+        viewOutlet.shuffle()
+        
+    }
 }
 
