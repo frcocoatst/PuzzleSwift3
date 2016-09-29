@@ -64,14 +64,14 @@ class MyView: NSView{
     // drawRect
     
     
-    override func drawRect(dirtyRect: NSRect)
+    override func draw(_ dirtyRect: NSRect)
     {
         // Examples are taken from:
         
-        NSColor.whiteColor().setFill()
+        NSColor.white.setFill()
         NSRectFill(self.bounds)
         //
-        super.drawRect(dirtyRect)
+        super.draw(dirtyRect)
         //
         // self.doIt()
         
@@ -86,7 +86,7 @@ class MyView: NSView{
                 
                 if (board[col][row].index == -1)
                 {
-                    NSColor.blackColor().setFill()
+                    NSColor.black.setFill()
                     //[[NSColor blackColor] setFill];
                     NSRectFill(tileRect)
                     blankX = col;
@@ -97,20 +97,20 @@ class MyView: NSView{
                 if (board[col][row].color == 1)
                 {
                     //[[NSColor whiteColor] setFill];
-                    NSColor.whiteColor().setFill()
+                    NSColor.white.setFill()
                 }
                 else
                 {
                     //[[NSColor redColor] setFill];
-                    NSColor.redColor().setFill()
+                    NSColor.red.setFill()
                 }
                 NSRectFill(tileRect);
                 
                 // select a font
                 let font = NSFont(name: "Palatino-Roman", size:48.0)
                 // center align
-                let style = NSMutableParagraphStyle.defaultParagraphStyle().mutableCopy() as! NSMutableParagraphStyle
-                style.alignment = NSTextAlignment.Center
+                let style = NSMutableParagraphStyle.default().mutableCopy() as! NSMutableParagraphStyle
+                style.alignment = NSTextAlignment.center
                 // text with Gold Color
                 // https://github.com/mbarriault/McChunk/blob/master/McChunk/NSColor%2BMoreColors.m
                 //
@@ -120,8 +120,8 @@ class MyView: NSView{
                 //
                 let shadow:NSShadow = NSShadow()
                 
-                shadow.shadowOffset = CGSizeMake(-2,-2)
-                shadow.shadowColor = NSColor.grayColor()
+                shadow.shadowOffset = CGSize(width: -2,height: -2)
+                shadow.shadowColor = NSColor.gray
                 
                 let textAttributes = [
                     NSFontAttributeName : font!,
@@ -129,24 +129,24 @@ class MyView: NSView{
                     NSShadowAttributeName: shadow,
                     NSForegroundColorAttributeName: textColor,
                     NSParagraphStyleAttributeName: style
-                ]
+                ] as [String : Any]
                 
                 let string = NSString(format: "%d",board[col][row].index )
                 
-                string.drawInRect(tileRect, withAttributes:textAttributes)
+                string.draw(in: tileRect, withAttributes:textAttributes)
                 
             }
         }
     }
     
     
-    override func mouseDown(theEvent: NSEvent) {
-        super.mouseDown(theEvent)
+    override func mouseDown(with theEvent: NSEvent) {
+        super.mouseDown(with: theEvent)
         //
         NSLog("mouseDown");
         
         var loc = theEvent.locationInWindow
-        loc = convertPoint(loc, fromView: nil)
+        loc = convert(loc, from: nil)
         //loc.x -= frame.origin.x
         //loc.y -= frame.origin.y
         
@@ -174,10 +174,10 @@ class MyView: NSView{
             let a = NSAlert()
             a.messageText = "Congratulations!"
             a.informativeText = "Puzzle solved"
-            a.addButtonWithTitle("OK")
-            a.alertStyle = NSAlertStyle.WarningAlertStyle
+            a.addButton(withTitle: "OK")
+            a.alertStyle = NSAlertStyle.warning
             
-            a.beginSheetModalForWindow(self.window!, completionHandler: { (modalResponse) -> Void in
+            a.beginSheetModal(for: self.window!, completionHandler: { (modalResponse) -> Void in
                 if modalResponse == NSAlertFirstButtonReturn {
                     NSLog("Puzzle solved")
                 }
@@ -194,8 +194,8 @@ class MyView: NSView{
         
     }
     
-    override func mouseDragged(theEvent: NSEvent) {
-        super.mouseDragged(theEvent)
+    override func mouseDragged(with theEvent: NSEvent) {
+        super.mouseDragged(with: theEvent)
         //
         NSLog("mouseDragged");
         
@@ -203,7 +203,7 @@ class MyView: NSView{
         //setNeedsDisplayInRect(bounds)
     }
     
-    override func mouseUp(theEvent: NSEvent) {
+    override func mouseUp(with theEvent: NSEvent) {
         
         NSLog("mouseUp");
         
@@ -212,7 +212,7 @@ class MyView: NSView{
     }
     
     //- doMoveX:(int)xpos Y:(int)ypos
-    func doMoveXY(xpos:Int, ypos:Int)
+    func doMoveXY(_ xpos:Int, ypos:Int)
     {
         
         NSLog("doMoveXY");
@@ -307,11 +307,13 @@ class MyView: NSView{
         
         
         //
-        for i in (1...15).reverse()
+        for i in (1...15).reversed()
             // for (i = 15; i > 0; i--)
         {
             //j:Int =  lrand48() % 16
-            j = random() % 16
+            //j = random() % 16
+            let random = Int(arc4random())
+            j = random % 16
             t = array[j]
             array[j] = array[i]
             array[i] = t
@@ -339,7 +341,7 @@ class MyView: NSView{
         needsDisplay = true
     }
     
-    override var flipped:Bool {
+    override var isFlipped:Bool {
         get {
             return true
         }

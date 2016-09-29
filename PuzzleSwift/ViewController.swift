@@ -16,7 +16,7 @@ class ViewController: NSViewController {
         // Do any additional setup after loading the view.
     }
 
-    override var representedObject: AnyObject? {
+    override var representedObject: Any? {
         didSet {
         // Update the view, if already loaded.
         }
@@ -24,7 +24,7 @@ class ViewController: NSViewController {
 
     @IBOutlet weak var viewOutlet: MyView!
 
-    @IBAction func doShuffle(sender: AnyObject) {
+    @IBAction func doShuffle(_ sender: AnyObject) {
         NSLog("doShuffle called")
         viewOutlet.shuffle()
         
